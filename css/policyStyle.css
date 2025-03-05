@@ -1,0 +1,46 @@
+header{
+    display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; 
+  height: 60px;
+}
+section{
+  width: 60%;
+  padding: 10px 40px 40px 40px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin: 0 auto;
+}
+p{
+  font-size: 22px;
+ font-weight: 200;
+}
+h2{
+  font-size: 56px;
+  font-weight: 800;
+}
+h3{
+font-size: 34px;
+font-weight: 600;
+}
+body{
+  font-family: "Inter", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+
+}
+@media (max-width: 800px) {
+  p{
+    font-size: 14px;
+   font-weight: 200;
+  }
+  h2{
+    font-size: 28px;
+    font-weight: 800;
+  }
+  h3{
+  font-size: 22px;
+  font-weight: 600;
+  }
+}
